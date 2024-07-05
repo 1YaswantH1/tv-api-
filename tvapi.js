@@ -1,7 +1,7 @@
 let submit_btn = document.querySelector(".Submit");
 let results = document.querySelector(".results");
 let search = document.querySelector("#search");
-// document.querySelector("")
+
 submit_btn.addEventListener("click", function (event) {
     event.preventDefault();
     results.innerHTML=""
